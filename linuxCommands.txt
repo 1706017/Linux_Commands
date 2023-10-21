@@ -1,3 +1,60 @@
 #This file contains all the important Linux commands
 
+1) $pwd
+->This commands tells us the present working directory where we are working
 
+2) $whoami 
+->This command will tell who is the current logged in user in our linux terminal 
+
+3) $date
+->This command will tell the current date and time 
+
+4) $ls 
+-> This commands will show the list of files and folders inside the directory 
+  
+   $ls -lt
+-> This command will tell us about more those files and folders inside the directory     like the size of files,date modified 
+
+5) $clear 
+-> This command helps to clear the linux terminal 
+
+6) $cat filename
+-> This command will show the content inside the filename
+
+   example: $cat fileA
+
+   output: Hi 
+           Everyone 
+
+   explaination: so the fileA content as shown in the output gets displayed on the terminal as soon as we have used $cat fileA
+
+7) $less <filename>
+
+->This command will help to search for word inside the file 
+And as soon as you enter this command then you will be inside that file opened in an editor then you begin your search by writing /<keyword> then enter 
+
+and to go to next instance of that keyword just use n button which stands for next 
+and to come out of this we need to press q means quit
+
+8) $touch <filename>
+-> To create an empty file in linux 
+
+   $touch file1 file2 file3
+-> To create multiple empty files in linux 
+
+9) $rm file1
+-> To delete the file
+
+   $rm file1 file2 file3
+-> To delete multiple files
+
+10) $vim <filename>
+->This command will open the file in an editor so that we can edit our file 
+->In vim editor in order to get into insert mode we need to press i 
+->Then do the changes what we require for the file 
+->finally to save changes just press esc button -> :wq ->  enter
+
+11) $mkdir <foldername>
+->this command to create a directory or folder 
+
+12) 
