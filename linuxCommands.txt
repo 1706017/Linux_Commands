@@ -57,4 +57,10 @@ and to come out of this we need to press q means quit
 11) $mkdir <foldername>
 ->this command to create a directory or folder 
 
-12) 
+12) $rmdir <directory name>
+->Command to delete a directory 
+
+    $rm -r <directory name>
+-> -r means recursive delete 
+
+ 
