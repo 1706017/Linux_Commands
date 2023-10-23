@@ -11,6 +11,8 @@
 #########################
 
 set -x #debug mode enabled that wil show which command executed
+set -e #exit the script if error comes
+set -o pipefail #exit the script if error comes on pipe operator
 
 echo "Print the disk space"
 df -h
@@ -21,7 +23,12 @@ free
 echo "Print the cpu for machine"
 nproc
 
+echo "Process Id"
+ps -ef | grep amazon | awk -F" " '{print $2}'
+
+
 echo "End of script"
+
 
 
 
